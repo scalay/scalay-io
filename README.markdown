@@ -13,6 +13,5 @@ need to know about java.io.
 
 ## Current Status
 
-Now, this project is quite primitive and no Scala codes at this 
-repository yet.  Until a month later, I would like to release 
-alpha version of scalay.
+Now, this project is quite primitive and a few Scala codes exists.
+Until two months later, I would like to release the first alpha version of scalay.
