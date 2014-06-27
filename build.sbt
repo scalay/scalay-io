@@ -1,13 +1,13 @@
-organization := "com.github.kmizu"
+organization := "com.github.scalay"
 
-name := "scalay"
+name := "scalay-io"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
-  "org.scalatest" %% "scalatest" % "1.9.1" % "test"
+  "org.scalatest" %% "scalatest" % "2.2.0" % "test"
 )
 
 scalacOptions ++= Seq("-deprecation","-unchecked")
@@ -27,17 +27,17 @@ publishArtifact in Test := false
 pomIncludeRepository := { _ => false }
 
 pomExtra := (
-  <url>https://github.com/kmizu/scalay</url>
+  <url>https://github.com/scalay/scalay-io</url>
   <licenses>
     <license>
-      <name>BSD-style</name>
-      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <name>The MIT License (MIT)</name>
+      <url>http://opensource.org/licenses/MIT</url>
       <distribution>repo</distribution>
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:kmizu/scalay.git</url>
-    <connection>scm:git:git@github.com:kmizu/scalay.git</connection>
+    <url>git@github.com:scalay/scalay-io.git</url>
+    <connection>scm:git:git@github.com:scalay/scalay-io.git</connection>
   </scm>
   <developers>
     <developer>
